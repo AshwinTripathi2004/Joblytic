@@ -83,3 +83,4 @@ if uploaded_file:
                 st.markdown("---")
         else:
             st.warning("No Naukri jobs found.")
+
