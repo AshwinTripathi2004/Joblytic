@@ -40,4 +40,4 @@ def fetch_naukri_jobs(search_query, location = "india", rows=60):
     }
     run = apify_client.actor("alpcnRV9YI9lYVPWk").call(run_input=run_input)
     jobs = list(apify_client.dataset(run["defaultDatasetId"]).iterate_items())
-    return jobs
+    return jobs 
