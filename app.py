@@ -35,6 +35,7 @@ if uploaded_file:
     st.header("🛠️ Skill Gaps & Missing Areas")
     st.markdown(f"<div style='background-color: #000000; padding: 15px; border-radius: 10px; font-size:16px; color:white;'>{gaps}</div>", unsafe_allow_html=True)
 
+
     st.markdown("---")
     st.header("🚀 Future Roadmap & Preparation Strategy")
     st.markdown(f"<div style='background-color: #000000; padding: 15px; border-radius: 10px; font-size:16px; color:white;'>{roadmap}</div>", unsafe_allow_html=True)
