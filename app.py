@@ -15,7 +15,7 @@ if uploaded_file:
 
     with st.spinner("Summarizing your resume..."):
         summary = ask_gemini(f"Summarize this resume highlighting the skills, edcucation, and experience: \n\n{resume_text}", max_tokens=500)
-
+    
     
 
     with st.spinner("Finding skill Gaps..."):
