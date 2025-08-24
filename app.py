@@ -4,6 +4,7 @@ from src.job_api import fetch_linkedin_jobs, fetch_naukri_jobs
 
 st.set_page_config(page_title="Job Recommender", layout="wide")
 st.title("📄AI Job Recommender")
+
 st.markdown("Upload your resume and get job recommendations based on your skills and experience from LinkedIn and Naukri.")
 
 uploaded_file = st.file_uploader("Upload your resume (PDF)", type=["pdf"])
