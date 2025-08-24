@@ -22,7 +22,7 @@ if uploaded_file:
         gaps = ask_gemini(f"Analyze this resume and highlight missing skills, certifications, and experiences needed for better job opportunities: \n\n{resume_text}", max_tokens=400)
 
 
-
+ 
     with st.spinner("Creating Future Roadmap..."):
         roadmap = ask_gemini(f"Based on this resume, suggest a future roadmap to improve this person's career prospects (Skill to learn, certification needed, industry exposure): \n\n{resume_text}", max_tokens=400)
     
