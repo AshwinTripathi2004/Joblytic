@@ -5,7 +5,7 @@ import time
 from dotenv import load_dotenv
 import google.generativeai as genai
 from google.api_core import exceptions as google_exceptions
-
+ 
 load_dotenv()
 
 # Gemini API key from environment variable
